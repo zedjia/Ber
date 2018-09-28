@@ -8,7 +8,7 @@ using BerMaster.DB;
 using CefSharp;
 using CefSharp.OffScreen;
 using Newtonsoft.Json;
-using WC.Lib.Extentions;
+using Z.Lib.Extentions;
 
 namespace BerMaster.Browser
 {

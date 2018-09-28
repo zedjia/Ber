@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CefSharp;
-using WC.Lib.Extentions;
 
 namespace BerMaster.Browser
 {

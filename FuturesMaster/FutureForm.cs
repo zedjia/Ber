@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using BerMaster.Browser;
 using BerMaster.DB;
 using CefSharp;
-using WC.Lib.Controls;
+using Z.Lib.Controls;
 
 namespace FuturesMaster
 {
@@ -91,7 +91,7 @@ namespace FuturesMaster
             while (true)
             {
                 await Task.Delay(2000);
-                url = "https://www.okex.com/future/refreshFutureFulLPub.do?tradeSize=50&contractId=20170929034&t=" +
+                url = "https://www.okex.com/future/refreshFutureFulLPub.do?tradeSize=50&contractId=201809280000012&t=" +
                          (DateTime.Now - TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1))).Ticks;
                 browser.Load(url);
                 //logPrint("开始抓取:"+ url);

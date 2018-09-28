@@ -113,9 +113,9 @@
     <Folder Include="Uc\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FM.Lib\WC.Lib.csproj">
+    <ProjectReference Include="..\..\..\Visual Studio 2017\Projects\CommonLibs\Z.Lib\Z.Lib.csproj">
       <Project>{7cd2b0a7-e349-4699-bc6d-477a225222bd}</Project>
-      <Name>WC.Lib</Name>
+      <Name>Z.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

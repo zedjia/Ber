@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BerMaster.DB;
-using WC.Lib.Controls;
+using Z.Lib.Controls;
 
 namespace BerMaster
 {

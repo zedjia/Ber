@@ -16,8 +16,7 @@ using BerMaster.Uc;
 using CefSharp;
 using CefSharp.OffScreen;
 using Newtonsoft.Json;
-using WC.Lib.Controls;
-using WC.Lib.Model;
+using Z.Lib.Controls;
 
 namespace BerMaster
 {

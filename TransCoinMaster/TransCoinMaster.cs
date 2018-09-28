@@ -12,7 +12,7 @@ using CefSharp;
 using CefSharp.WinForms;
 using TransCoinMaster.Lib;
 using TransCoinMaster.Lib.Entity;
-using WC.Lib.Controls;
+using Z.Lib.Controls;
 
 
 namespace TransCoinMaster

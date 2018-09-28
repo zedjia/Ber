@@ -67,9 +67,7 @@
     <Compile Include="Browser\JsEventFunction.cs" />
     <Compile Include="Browser\MenuHandler.cs" />
     <Compile Include="Browser\ResourceEntity.cs" />
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
@@ -101,12 +99,6 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FM.Lib\WC.Lib.csproj">
-      <Project>{7cd2b0a7-e349-4699-bc6d-477a225222bd}</Project>
-      <Name>WC.Lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
